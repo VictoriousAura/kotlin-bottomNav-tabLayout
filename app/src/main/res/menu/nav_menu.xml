@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:title="Highlight"
+        android:icon="@drawable/ic_highlight"
+        android:id="@+id/menu_highlight">
+
+    </item>
+
+    <item
+        android:title="Home"
+        android:icon="@drawable/ic_home"
+        android:id="@+id/menu_home">
+
+    </item>
+
+    <item
+        android:title="Settings"
+        android:icon="@drawable/ic_settings"
+        android:id="@+id/menu_settings">
+
+    </item>
+
+
+</menu>
