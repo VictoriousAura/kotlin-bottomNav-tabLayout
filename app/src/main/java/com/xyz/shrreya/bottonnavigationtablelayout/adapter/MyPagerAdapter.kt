@@ -3,9 +3,7 @@ package com.xyz.shrreya.bottonnavigationtablelayout.adapter
 import android.support.v4.app.Fragment
 import android.support.v4.app.FragmentManager
 import android.support.v4.app.FragmentPagerAdapter
-import com.xyz.shrreya.bottonnavigationtablelayout.ui.fragment.Fragment_home
-import com.xyz.shrreya.bottonnavigationtablelayout.ui.fragment.Fragment_settings
-import com.xyz.shrreya.bottonnavigationtablelayout.ui.fragment.HighlightsFragment
+import com.xyz.shrreya.bottonnavigationtablelayout.ui.fragment.*
 
 class MyPagerAdapter(fm: FragmentManager) : FragmentPagerAdapter(fm) {
 
@@ -16,22 +14,22 @@ class MyPagerAdapter(fm: FragmentManager) : FragmentPagerAdapter(fm) {
     override fun getItem(position: Int): Fragment {
         return when (position) {
             0 -> {
-                Fragment_home()
+                Tab1Fragment()
             }
 
-            1 -> HighlightsFragment()
+            1 -> Tab2Fragment()
             else -> {
-               return Fragment_settings()
+               return Tab3Fragment()
             }
         }
     }
 
     override fun getPageTitle(position: Int): CharSequence? {
         return when(position){
-            0 -> "Home"
-            1 -> "Highlights"
+            0 -> "Tab1"
+            1 -> "Tab2"
             else ->{
-                return "Settings"
+                return "Tab3"
             }
         }
     }

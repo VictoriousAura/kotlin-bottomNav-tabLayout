@@ -3,12 +3,22 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     tools:context=".ui.fragment.Fragment_home">
 
-    <!-- TODO: Update blank fragment layout -->
-    <TextView
+
+    <android.support.design.widget.TabLayout
+        android:id="@+id/tab_main"
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:text="home fragment" />
+        android:layout_height="wrap_content"
+        app:tabMode="fixed"
+        />
+    <android.support.v4.view.ViewPager
+        android:id="@+id/ViewPager_main"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toBottomOf="@+id/tab_main">
+
+    </android.support.v4.view.ViewPager>
 
 </FrameLayout>
