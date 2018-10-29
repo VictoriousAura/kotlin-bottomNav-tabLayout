@@ -12,7 +12,7 @@ import com.xyz.shrreya.bottonnavigationtablelayout.R
 import com.xyz.shrreya.bottonnavigationtablelayout.adapter.MyPagerAdapter
 import kotlinx.android.synthetic.main.fragment_fragment_home.*
 
-class Fragment_home : Fragment() {
+class HomeFragment : Fragment() {
 
     private lateinit var viewPager: ViewPager
     private lateinit var tabs: TabLayout

@@ -4,7 +4,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     xmlns:app="http://schemas.android.com/apk/res-auto"
-    tools:context=".ui.fragment.Fragment_home">
+    tools:context=".ui.fragment.HomeFragment">
 
 
     <android.support.design.widget.TabLayout
