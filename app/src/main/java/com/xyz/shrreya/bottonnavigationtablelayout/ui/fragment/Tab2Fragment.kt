@@ -18,5 +18,4 @@ class Tab2Fragment : Fragment() {
         return inflater.inflate(R.layout.fragment_tab2, container, false)
     }
 
-
 }

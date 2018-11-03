@@ -20,7 +20,6 @@ class UsersAdapter(val users: ArrayList<String>) :RecyclerView.Adapter<UsersAdap
 
     override fun getItemCount()= users.size
 
-
     override fun onBindViewHolder(holder: UsersAdapter.ViewHolder, position: Int) {
         holder.userName.text= users[position]
     }
